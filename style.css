@@ -1,3 +1,7 @@
+body{
+    transition: background-color 1s;
+}
+
 section#colour-display{
     background-color: #ffffff;
     margin: 10rem auto;
