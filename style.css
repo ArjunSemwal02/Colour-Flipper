@@ -1,0 +1,26 @@
+section#colour-display{
+    margin: 10rem auto;
+    width: 50%;
+    box-shadow: 0px 20px 50px rgba(0,0,0,.4);
+    padding: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+section#colour-display #flipColourBtn{
+    border-radius: .5rem;
+    background-color: rgb(233, 123, 123);
+    color: white;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0 15px 15px rgba(0,0,0,.4);
+    cursor: pointer;
+    width: 100%;
+    font-size: 2rem;
+}
+
+section#colour-display #flipColourBtn:hover{
+    background-color: rgb(252, 81, 81);
+}
