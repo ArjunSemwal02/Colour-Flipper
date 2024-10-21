@@ -12,7 +12,7 @@ function getRandomHexValue() {
 }
 
 function getRandomHexString(stringLength) {
-    const colourString = '';
+    let colourString = '';
 
     for(let i = 0; i < stringLength; i++)
         colourString += getRandomHexValue();
